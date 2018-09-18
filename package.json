@@ -1,0 +1,24 @@
+{
+    "name": "complex-sets",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/react": "^16.4.14",
+        "@types/react-dom": "^16.0.7",
+        "parcel": "^1.9.7",
+        "typescript": "^3.0.3"
+    },
+    "dependencies": {
+        "parcel": "^1.9.7",
+        "react": "^16.5.2",
+        "react-dom": "^16.5.2",
+        "typescript": "^3.0.3"
+    },
+    "scripts": {
+        "start": "npx parcel serve --open --no-cache --out-dir ./dist -- ./public/index.html",
+        "build": "npx parcel build --no-cache --no-source-maps --out-dir='./docs' --public-url='./' -- ./public/index.html"
+    }
+}
